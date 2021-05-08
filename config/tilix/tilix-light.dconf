@@ -1,0 +1,17 @@
+[/]
+background-color='#FAFAFA'
+badge-color-set=false
+badge-text=''
+badge-use-system-font=true
+bold-color-set=false
+cursor-colors-set=false
+foreground-color='#6C7680'
+highlight-colors-set=false
+palette=['#000000', '#f07171', '#86b300', '#f2ae49', '#399ee6', '#a37acc', '#4cbf99', '#c7c7c7', '#686868', '#f07171', '#86b300', '#f2ae49', '#399ee6', '#a37acc', '#4cbf99', '#d1d1d1']
+scroll-on-keystroke=true
+scroll-on-output=true
+show-scrollbar=false
+terminal-title='${title}'
+text-blink-mode='unfocused'
+use-theme-colors=false
+visible-name='rm_rfasteirsk'

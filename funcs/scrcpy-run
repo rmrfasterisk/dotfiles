@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+if command -v scrcpy 1>/dev/null; then
+	tmux new-session -d -s scrcpy "scrcpy -S"
+else
+	read -r -p "scrcpy not installed. Do you want to install it? [y/n] " choice    
+	if [[ "$choice" == "y" ]]; then    
+        	sudo dnf copr enable zeno/scrcpy -y
+		sudo dnf install scrcpy
+	fi
+fi

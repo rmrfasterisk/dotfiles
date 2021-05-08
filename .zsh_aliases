@@ -1,0 +1,6 @@
+alias update-grub="sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg"
+alias dnf="sudo dnf"
+alias vim="nvim"
+alias cat="bat -pp"
+alias ls="exa"
+alias start-scrcpy="tmux new -s scrcpy 'scrcpy -S'"
